@@ -12,3 +12,10 @@ to use sample video as example. put "videos/giraffe/
 
 then it will ask for quantization of the resolutions. you can pick from choices "min1, min2, min3, clrgrp1, and so on". go with min1.
 
+## limitations
+* movement is restricted to 22pixels. if shape move beyond 22pxels, behavior is undefined.
+* if the video contain undefinable shapes like rain, fluid like object like water and so on, it may not work correctly.
+* video is edited. the algorithms is designed to work with natural sequential frames of video.
+* video suddenly changes to different scenes. video has to be smooth transitions of movement.
+
+**if the video does not contain limitatiopns, then the accuracy will be about 95 to almost 100%!**
