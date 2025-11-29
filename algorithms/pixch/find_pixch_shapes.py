@@ -173,8 +173,6 @@ for im1shapeid in xy_im1shapes:
 	
 	if shape_pixch_percent < 0.5:
 		# caution: combined shape maybe produce wrong movement. so identifiy if the image1 shape is the combined shape.
-		pass
-		
 		matched_pixels, matched_mv = same_shapes_functions.match_L50pixch_shapes( xy_im1shapes[im1shapeid], shape_pixch, all_im2_pixels,
 									image_size, min_colors )
 		
