@@ -26,6 +26,8 @@ image2_fname = "3"
 directory = "videos/street6/resized/min1"
 ```
 
+then the result will be written to "shapes/image directory name/ directory of the result/"
+
 ## limitations
 * movement is restricted to 22pixels. if shape move beyond 22pxels, behavior is undefined.
 * if the video contain undefinable shapes like rain, fluid like object like water and so on, it may not work correctly.
