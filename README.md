@@ -12,6 +12,17 @@ to use sample video as example. put "videos/giraffe/
 
 then it will ask for quantization of the resolutions. you can pick from choices "min1, min2, min3, clrgrp1, and so on". go with min1.
 
+### how to see result
+you can see the result from each script by using recreate_shapes scripts.
+
+for example, to see the result for find_pixch_shapes.py, run pixch_shapes.py in recreate_shapes/pixch/.
+
+just fill replace following data inside pixch_shapes.py for the result you want to see.
+
+image_fname = "2"
+image2_fname = "3"
+directory = "videos/street6/resized/min1"
+
 ## limitations
 * movement is restricted to 22pixels. if shape move beyond 22pxels, behavior is undefined.
 * if the video contain undefinable shapes like rain, fluid like object like water and so on, it may not work correctly.
