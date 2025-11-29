@@ -19,9 +19,11 @@ for example, to see the result for find_pixch_shapes.py, run pixch_shapes.py in 
 
 just fill replace following data inside pixch_shapes.py for the result you want to see.
 
+```
 image_fname = "2"
 image2_fname = "3"
 directory = "videos/street6/resized/min1"
+```
 
 ## limitations
 * movement is restricted to 22pixels. if shape move beyond 22pxels, behavior is undefined.
