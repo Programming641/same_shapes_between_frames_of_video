@@ -1,8 +1,9 @@
 ## operating enviroment
+```
 windows 10 or higher
 python3
 python library dependencies:   pillow
-
+```
 
 ## run sample videos
 just simply run ./execute_scripts.ps1
