@@ -12,8 +12,6 @@ from collections import OrderedDict
 from libraries.cv_globals import top_shapes_dir, top_images_dir
 from libraries import cv_globals
 
-start = time.time()
-
 image_fname = "1"
 image2_fname = "2"
 result_num = '1'
@@ -261,13 +259,6 @@ matched_shapes_fpath = unm_matched_ddir + image_fname + '.' + image2_fname + "_1
 with open(matched_shapes_fpath, 'wb') as fp:
    pickle.dump(result, fp)
 fp.close()
-
-end = time.time()
-
-elapsed = end - start
-print(f"Elapsed time: {elapsed:.4f} seconds")
-
-
 
 
 

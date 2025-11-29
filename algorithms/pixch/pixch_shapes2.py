@@ -12,7 +12,6 @@ from collections import OrderedDict
 from libraries.cv_globals import top_shapes_dir, top_images_dir, top_tests_dir
 from libraries import cv_globals
 
-start = time.time()
 
 image_fname = "25"
 image2_fname = "26"
@@ -301,22 +300,6 @@ matched_shapes_fpath = pixch_shapes_ddir + image_fname + '.' + image2_fname + ".
 with open(matched_shapes_fpath, 'wb') as fp:
    pickle.dump(result, fp)
 fp.close()
-
-
-
-end = time.time()
-
-elapsed = end - start
-print(f"Elapsed time: {elapsed:.4f} seconds")
-
-
-
-frequency = 2000  # Set Frequency To 2500 Hertz
-duration = 5000  # Set Duration To 1000 ms == 1 second
-winsound.Beep(frequency, duration)
-
-
-
 
 
 

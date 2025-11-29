@@ -12,8 +12,6 @@ from collections import OrderedDict
 from libraries.cv_globals import top_shapes_dir, top_images_dir
 from libraries import cv_globals
 
-start = time.time()
-
 image_fname = "1"
 image2_fname = "2"
 directory = "videos/street4/resized/min1"
