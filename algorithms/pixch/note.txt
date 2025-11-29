@@ -1,0 +1,39 @@
+run order ------------------------------------------
+
+dependencies -----------------------------
+
+script name: scripts that need to be run beforehand.
+
+confirm_L50matches.py: pixch_shapes.py
+unm_pixch_shapes2.py:    pixch_shapes.py,  unm_G50_shapes.py, pixch_shapes2.py, 
+
+
+job1
+find_pixch_shapes.py
+
+job3
+job1, unm_G50_shapes.py, confirm_unm_G50.py, 
+
+job4
+job1, job3, pixch_shapes2.py, 
+
+job5
+unm_pixch_shapes2.py: job1, job3, job4 need to be run beforehand.
+
+job6
+match_unmatched3.py: job1,3,4, 5
+
+
+sequential run order
+find_pixch_shapes.py,  unm_G50_shapes.py, confirm_unm_G50.py, 
+pixch_shapes2.py, unm_pixch_shapes2.py, match_unm_pixels3.py    
+
+
+
+
+
+
+
+
+
+
