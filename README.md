@@ -18,4 +18,4 @@ then it will ask for quantization of the resolutions. you can pick from choices 
 * video is edited. the algorithms is designed to work with natural sequential frames of video.
 * video suddenly changes to different scenes. video has to be smooth transitions of movement.
 
-**if the video does not contain limitatiopns, then the accuracy will be about 95 to almost 100%!**
+**if the video does not contain limitations, then the accuracy will be about 95 to almost 100%!**
